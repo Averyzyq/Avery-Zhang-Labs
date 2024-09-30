@@ -1,0 +1,79 @@
+[gd_scene load_steps=3 format=3 uid="uid://gqaxqndi04yl"]
+
+[ext_resource type="PackedScene" uid="uid://j8d7nu1bao6a" path="res://player.tscn" id="1_vxrbc"]
+[ext_resource type="Texture2D" uid="uid://c344y1w6xiu2p" path="res://purepng.com-catcatcatsanimalspetscute-cat-251520163946lt4hc.png" id="2_muffr"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="sky" type="ColorRect" parent="."]
+offset_left = -149.0
+offset_top = 361.0
+offset_right = 1304.0
+offset_bottom = 576.0
+color = Color(0.270588, 0.654902, 0.47451, 1)
+
+[node name="grass back" type="ColorRect" parent="."]
+offset_left = -147.0
+offset_top = -41.0
+offset_right = 1300.0
+offset_bottom = 386.0
+color = Color(0.391763, 0.77888, 0.959844, 1)
+
+[node name="tree trunk2" type="ColorRect" parent="."]
+offset_left = 946.0
+offset_top = 289.0
+offset_right = 1032.0
+offset_bottom = 469.0
+scale = Vector2(0.7, 0.7)
+color = Color(0.395103, 0.246947, 0, 1)
+
+[node name="leaves" type="ColorRect" parent="tree trunk2"]
+offset_left = -64.2858
+offset_top = -88.5714
+offset_right = 240.714
+offset_bottom = 142.429
+scale = Vector2(0.7, 0.7)
+color = Color(0.133333, 0.603922, 0.34902, 1)
+
+[node name="tree trunk" type="ColorRect" parent="."]
+offset_left = 147.0
+offset_top = 269.0
+offset_right = 257.0
+offset_bottom = 500.0
+color = Color(0.395103, 0.246947, 0, 1)
+
+[node name="leaves" type="ColorRect" parent="tree trunk"]
+offset_left = -98.0
+offset_top = -177.0
+offset_right = 207.0
+offset_bottom = 54.0
+color = Color(0.133333, 0.603922, 0.34902, 1)
+
+[node name="cloud" type="ColorRect" parent="."]
+offset_left = 622.0
+offset_top = 97.0
+offset_right = 754.0
+offset_bottom = 182.0
+color = Color(0.972549, 1, 1, 1)
+
+[node name="cloud" type="ColorRect" parent="cloud"]
+offset_left = 40.0
+offset_top = -31.0
+offset_right = 172.0
+offset_bottom = 54.0
+color = Color(0.972549, 1, 1, 1)
+
+[node name="grass front" type="ColorRect" parent="."]
+offset_left = -155.0
+offset_top = 534.0
+offset_right = 1310.0
+offset_bottom = 674.0
+color = Color(0.0698767, 0.362266, 0.202221, 1)
+
+[node name="guy" parent="." instance=ExtResource("1_vxrbc")]
+position = Vector2(612, 258)
+
+[node name="just cat" type="Sprite2D" parent="."]
+position = Vector2(842, 527)
+scale = Vector2(0.0623466, 0.0623466)
+texture = ExtResource("2_muffr")
