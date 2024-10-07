@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://w2xx5tf7thnu"]
+
+[ext_resource type="Script" path="res://example.gd" id="1_trr6l"]
+
+[node name="example" type="Node2D"]
+script = ExtResource("1_trr6l")
+score = 10
