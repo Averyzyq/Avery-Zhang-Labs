@@ -8,6 +8,7 @@
 
 [node name="controlable player" parent="." instance=ExtResource("1_4dfbh")]
 position = Vector2(138, 113)
+health = 0
 
 [node name="enemy 2" parent="." instance=ExtResource("3_xwsfj")]
 position = Vector2(726, 223)
