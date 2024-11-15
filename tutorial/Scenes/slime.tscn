@@ -1,7 +1,7 @@
 [gd_scene load_steps=10 format=3 uid="uid://c68kyvj8jjq2s"]
 
 [ext_resource type="Texture2D" uid="uid://giojqiqak7p4" path="res://Assets/brackeys_platformer_assets/sprites/slime_green.png" id="1_j3ane"]
-[ext_resource type="Script" path="res://Assets/brackeys_platformer_assets/sprites/slime.gd" id="2_1yf6j"]
+[ext_resource type="Script" path="res://Scripts/slime.gd" id="2_1yf6j"]
 [ext_resource type="PackedScene" uid="uid://d0ikr6ty1jt8m" path="res://Scenes/killzone.tscn" id="2_6j6dw"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_pox34"]
